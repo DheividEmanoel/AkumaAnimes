@@ -1,0 +1,427 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/*-----------------------------INICIO-----------------------------*/
+
+h1{
+    text-align: center;
+}
+
+#index{
+    background-image: url(../imagens/kimi.png);
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#menu{
+    position: relative;
+    bottom: 16px;
+    border-radius: 5px;
+    background-color: rgba(228, 228, 228, 0.541);
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu ul{
+    display: block;
+    text-align: center;
+}
+
+#menu ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: rgb(61, 47, 80);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover{
+    transition: linear .4s;
+    background-color: rgb(81, 50, 122);
+}
+
+#menu ul li:hover a{
+    transition: linear .2s;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#box{
+    padding: 2px 10px 0 10px;
+    margin: 0 auto;
+    text-align: justify;
+    border-radius: 5px;
+    height: 300px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.411);
+    color: rgb(103, 50, 119);
+    font-weight: bolder;
+    font-size: 20px;
+}
+/*-----------------------------------------------------------------*/
+
+
+
+/*-----------------------------SOBRE-----------------------------*/
+
+#sobre{
+    background-image: url(../imagens/sobrebkg.jpg);
+}
+
+#menusob{
+    border-radius: 5px;
+    background-color: rgba(224, 197, 136, 0.507);
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menusob ul{
+    display: block;
+    text-align: center;
+}
+
+#menusob ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menusob ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menusob ul li:hover{
+    transition: linear .4s;
+    background-color: rgb(255, 255, 255);
+}
+
+#menusob ul li:hover a{
+    transition: linear .2s;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+#box{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    height: 655px;
+    background-image: linear-gradient(to left, rgba(6, 6, 6, 0.4) , #E0C588);
+}
+
+#box p{
+    color: rgb(0, 0, 0);
+}
+
+#gif{
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px 5px 2px 0px;
+    border-radius: 25px;
+}
+
+#bcgif{
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px 5px 2px 0px;
+    border-radius: 25px;
+}
+/*------------------------------PRODUTOS-----------------------------------*/
+#produtos{
+    background-image: url(../imagens/prodtbcg.jpg);
+}
+
+#menuprod{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menuprod ul{
+    display: block;
+    text-align: center;
+}
+
+#menuprod ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menuprod ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menuprod ul li:hover{
+    transition: linear .4s;
+    background-color: #E7C61F;
+}
+
+#menuprod ul li:hover a{
+    transition: linear .2s;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#boxpdt{
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    background: rgba(255, 255, 255, 0.726);
+}
+
+#boxpdt img{
+    padding-top: 35PX;
+    padding-left: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+#boxpdt s{
+    font-style: initial;
+    line-height: 15px;
+    color: #666;
+}
+
+#boxpdt a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#boxpdt a:hover{
+    color: #615413;
+    transition: linear .2s;
+}
+
+#boxpdt h3{
+    line-height: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+}
+/*---------------------------------------------------------------*/
+
+/*-----------------------------WALLPAPERS-----------------------------*/
+#wallpapers{
+    background-image: url(../imagens/editsbcg.png);
+}
+
+#menuwpp{
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #ffffffc9;
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menuwpp ul{
+    display: block;
+    text-align: center;
+}
+
+#menuwpp ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menuwpp ul li a{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menuwpp ul li:hover{
+    transition: linear .4s;
+    background-color: rgb(216, 44, 44);
+}
+
+#menuwpp ul li:hover a{
+    transition: linear .2s;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#banners{
+    border-radius: 25px;
+    max-width: 1100px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+#banners .bx-wrapper{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none;
+}
+/*---------------------------------------------------------------*/
+
+/*-----------------------------FILMES-----------------------------*/
+#filmes{
+    background-image: url(../imagens/killdead.jpg);
+}
+
+#menufilmes{
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #ffffffc9;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menufilmes ul{
+    display: block;
+    text-align: center;
+}
+
+#menufilmes ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menufilmes ul li a{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menufilmes ul li:hover{
+    transition: linear .4s;
+    background-color: rgb(131, 14, 14);
+}
+
+#menufilmes ul li:hover a{
+    transition: linear .2s;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#boxfilmes{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+}
+.movies{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.movies img{
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.movies p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+}
+
+.movies h3{
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.movies a{
+    color: rgb(131, 14, 14);
+}
+/*---------------------------------------------------------------*/
+
+/*-----------------------------EDITS-----------------------------*/
+#edits{
+    background-image: url(../imagens/jujutsu.png);
+}
+
+#menuedits{
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #CD88B8;
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menuedits ul{
+    display: block;
+    text-align: center;
+}
+
+#menuedits ul li{  
+    padding: 25px;
+    display: inline-block;
+}
+
+#menuedits ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menuedits ul li:hover{
+    transition: linear .4s;
+    background-color: rgb(0, 0, 0);
+}
+
+#menuedits ul li:hover a{
+    transition: linear .2s;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#videos{
+    margin: 0 auto;
+    padding-top: 30px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+/*---------------------------------------------------------------*/
+
+
+
